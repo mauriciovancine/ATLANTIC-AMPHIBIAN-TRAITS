@@ -6,7 +6,7 @@
 
 A compilation of morphological and ecological traits at both individual and species levels for amphibians in the Atlantic Forest of South America.
 
-ATLANTIC SPATIAL dataset is part of the <a href="https://github.com/LEEClab/Atlantic_series">ATLANTIC series</a>, on which research teams are compiling biodiversity information of Atlantic Forest. This paper follows previous published data papers in <a href="https://esajournals.onlinelibrary.wiley.com/doi/toc/10.1002/(ISSN)1939-9170.AtlanticPapers">Ecology</a>.
+ATLANTIC AMPHIBIAN TRAITS dataset is part of the <a href="https://github.com/LEEClab/Atlantic_series">ATLANTIC series</a>, on which research teams are compiling biodiversity information of Atlantic Forest. This paper follows previous published data papers in <a href="https://esajournals.onlinelibrary.wiley.com/doi/toc/10.1002/(ISSN)1939-9170.AtlanticPapers">Ecology</a>.
 
 </p>
 
@@ -26,27 +26,26 @@ The lack of knowledge about species' functional traits represents a major challe
 
 <p align="center">
 
-<img src="https://github.com/mauriciovancine/ATLANTIC-SPATIAL/blob/main/figures/fig02a.png" height="350" width="250"/> <img src="https://github.com/mauriciovancine/ATLANTIC-SPATIAL/blob/main/figures/fig02b.png" height="350" width="250"/> <img src="https://github.com/mauriciovancine/ATLANTIC-SPATIAL/blob/main/figures/fig02c.png" height="350" width="250"/>
+<img src="https://github.com/mauriciovancine/ATLANTIC-AMPHIBIAN-TRAITS/blob/main/figures/fig01.png" height="350" width="250"/>
 
 </p>
 
 <p align="justify">
 
-<b>Figure 1.</b> Data framework used to summarize land use land cover (LULC) classes into Atlantic Forest habitat types. (a) The LULC classes refer to MapBiomas in the AF (Brazil, Argentina, and Paraguay). (b) Grouped land cover classes. (c) Two vegetation classes were considered as habitat to calculate the landscape metrics.
+<b>Figure 1.</b> Original distribution of the Atlantic Forest in South America and current extent of its forest vegetation remnants in 2020. Dots represent individuals with morphological measurements taken at CFBH amphibian collection between 2016 and 2017 included in the ATLANTIC AMPHIBIAN TRAITS data set. Dark gray dots indicate measurements with approximate coordinates (1859), while red dots indicate measurements with precise coordinates (598) for 357 species (not all individuals have a collection location or coordinate available).
 
 </p>
 
-This repository shares the code used on the manuscript by Vancine et al. <https://doi.org/10.1101/2023.09.16.558076>
-
 ## code
 
-All analyses were performed in [R language](https://www.r-project.org/) and [GRASS GIS](https://grass.osgeo.org/) through [*rgrass*](https://rsbivand.github.io/rgrass/) R package. This folder contains all R code files used:
+All analyses were performed in [R language](https://www.r-project.org/). This folder contains all R code files used:
 
--   `01_01_download_limits.R`: download Atlantic Forest limit
+-   `01_prepare_data_traits.R`: prepare trait data
+-   `02_description_data_traits.R`: description trait data with tables and figures
 
 ## data
 
-Table with layer information and download links.
+Tables with trait information.
 
 ## figures
 
