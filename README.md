@@ -26,7 +26,7 @@ The lack of knowledge about species' functional traits represents a major challe
 
 <p align="center">
 
-<img src="https://github.com/mauriciovancine/ATLANTIC-AMPHIBIAN-TRAITS/blob/main/figures/fig01.png" height="350" width="250"/>
+<img src="https://github.com/mauriciovancine/ATLANTIC-AMPHIBIAN-TRAITS/blob/main/figures/fig01.png" height="500" width="400"/>
 
 </p>
 
